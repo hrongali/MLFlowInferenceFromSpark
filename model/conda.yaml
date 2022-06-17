@@ -1,0 +1,10 @@
+channels:
+- defaults
+dependencies:
+- python=3.8.8
+- pip
+- pip:
+  - mlflow
+  - onnx==1.11.0
+  - onnxruntime==1.11.1
+name: mlflow-env

@@ -1,0 +1,10 @@
+flavors:
+  onnx:
+    data: model.onnx
+    onnx_version: 1.11.0
+  python_function:
+    data: model.onnx
+    env: conda.yaml
+    loader_module: mlflow.onnx
+    python_version: 3.8.8
+utc_time_created: '2022-06-02 17:38:26.708004'
